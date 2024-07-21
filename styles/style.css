@@ -21,7 +21,7 @@ body{
     justify-content: space-between;
     margin: 8% 15%;
     height: 100%;
-    gap: 20px;
+    gap: 65px;
    
 }
 .body__pag__ladoesquerdo{
@@ -55,49 +55,63 @@ body{
 
 
 .body__pag__botoes{
-    display: flex;
-    flex-direction: row;
+    display: flex;   
     justify-content: space-between;
-    gap: 16px;
+    gap: 32px;
+    width: 45vw;
 }
 .body__pag__botoes__criptografar{
     border: none;
-    padding: 24px 120px;
+    padding: 24px 0px;
+    width: 60%;
     font-family: var(--main-font);
     color: var(--tert-color);
     font-size: 1rem;
     background-color: var(--accent-color);
     border-radius: 24px;
 }
+.body__pag__botoes__criptografar:hover{
+    background-color: #072B61;
+}
 .body__pag__botoes__descriptografar{
     border: solid 2px var(--accent-color);
-    padding: 24px 120px;
+    padding: 24px 0px;
+    width: 60%;
     font-family: var(--main-font);
     font-size: 1rem;
     color: var(--accent-color);
     background-color: D8DFE8;
     border-radius: 24px;
 }
-
+.body__pag__botoes__descriptografar:hover{
+    background-color: #EFF1FA;
+}
 
 .body__pag__ladodireito{
     padding: 32px;
     display: flex;
     flex-direction: column;
-    width: 40%;
-    font-size: 1.5rem;
+    width: 40%;   
     background-color: var(--tert-color);
     border-radius: 32px;
     box-shadow: 2px 2px 20px black;
-    align-self: flex-st;
-    
 }
-
+.body__pag__saida{
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    resize:none;
+    border: none;
+    outline: none;
+    max-height: 100%;
+} 
+/* terminar de fazer o textarea. Descobrir como substituir o <h3> e o <p> apenas pelo textarea*/
 .body__pag__textovazio{
     display: flex;
     flex-direction: column;
     gap: 16px;
     justify-content: center;
+    align-items: center;
+    height: auto;
 }
 
 .body__pag__head{
@@ -126,4 +140,12 @@ body{
 }
 .imagemLogo{
     width: 2%;
+}
+
+@media(max-width: 1000px){
+    .body__pag{
+        display: flex;
+        flex-direction: column;
+       
+    }
 }

@@ -9,20 +9,29 @@
 <body>
     <main class="body__pag">
         <section class="body__pag__ladoesquerdo">
-            <input class="body__pag__textodescodificado" placeholder="Digite seu texto">
+            <textarea class="body__pag__input" placeholder="Digite seu texto" wrap="hard"></textarea>
             <div class="body__pag__botoes">
-                <button class="body__pag__criptografar" onclick="criptografarTexto()">criptografar</button>
-                <button class="body__pag__descriptografar" onclick="descriptografarTexto()">descriptografar</button>
+                <button class="body__pag__botoes__criptografar" onclick="criptografarTexto()">criptografar</button>
+                <button class="body__pag__botoes__descriptografar" onclick="descriptografarTexto()">descriptografar</button>
             </div>
            
         </section>
+        
         <section class="body__pag__ladodireito" id="saida">
-
-            <h3 class="body__pag__output" >Nenhuma mensagem encontrada...</h3>
-            <p>Digite um texto que você deseja criptografar ou descriptografar. </p>
+            <div class="body__pag__textovazio">
+                <h3 class="body__pag__head" >Nenhuma mensagem encontrada...</h3>
+                <p class="body__pag__parag">Digite um texto que você deseja criptografar ou descriptografar. </p>
+            </div>
+            
         </section>
         
+        
     </main>
+    <footer class="rodape">
+        <img src="img/logo final v2 torto.png" alt="Logo" class="imagemLogo">
+        <p class="rodape__texto">Desenvolvido por Gustavo Gomes</p>
+
+    </footer>
     <script src="app.js" defer></script>
 </body>
 </html>

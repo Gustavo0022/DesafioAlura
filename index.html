@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcodificador de texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main class="body__pag">
+        <section class="body__pag__ladoesquerdo">
+            <input class="body__pag__textodescodificado" placeholder="Digite seu texto">
+            <div class="body__pag__botoes">
+                <button class="body__pag__criptografar" onclick="criptografarTexto()">criptografar</button>
+                <button class="body__pag__descriptografar" onclick="descriptografarTexto()">descriptografar</button>
+            </div>
+           
+        </section>
+        <section class="body__pag__ladodireito" id="saida">
+
+            <h3 class="body__pag__output" >Nenhuma mensagem encontrada...</h3>
+            <p>Digite um texto que você deseja criptografar ou descriptografar. </p>
+        </section>
+        
+    </main>
+    <script src="app.js" defer></script>
+</body>
+</html>

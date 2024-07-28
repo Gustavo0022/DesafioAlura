@@ -3,6 +3,7 @@
 
 **Atenção:** Este projeto é o desafio final da formação Oracle ONE Next Education T7, em parceria com a Alura.
 
+![Demo do projeto](/assets/img/demo-md.gif)
 
 ## Objetivo
 

@@ -10,18 +10,13 @@
     padding: 0;
 }
 
-body{
-    background-color: var(--main-color);
-    box-sizing: border-box;
-    height: 100vh; 
-}
+/*##### CABEÇALHO #####*/
 header{
     display: flex;
     flex-direction: row;
     gap: 25px;
     align-items: center;
-    padding: 2% 0% 0% 5%
-    
+    padding: 2% 0% 0% 5%;
 }
 .cabecalho__anchor{
     width: 5%;
@@ -35,8 +30,8 @@ header{
 .cabecalho__texto{
     font-family: var(--main-font);
     font-size: 1.5rem;
-    
 }
+/*##### CORPO #####*/
 .body__pag{
     display: flex;
     flex-direction: row;
@@ -44,10 +39,15 @@ header{
     margin: 4% 13%;
     height: 100%;
     gap: 65px;
-   
 }
 
+/*##### ESPAÇO DE ENTRADA DE TEXTO #####*/
 
+body{
+    background-color: var(--main-color);
+    box-sizing: border-box;
+    height: 65.5vh; 
+}
 .body__pag__espaco__entrada{
     display: flex;
     flex-direction: column;
@@ -110,7 +110,7 @@ header{
 }
 
 
-
+/*##### ESPAÇO DE SAÍDA DE TEXTO #####*/
 .body__pag__espaco__saida{
     padding: 32px;
     display: flex;
@@ -178,6 +178,8 @@ header{
     text-align: center;
 }
 
+
+/*##### RODAPÉ #####*/
 .rodape{
     display: flex;
     flex-direction: row;
@@ -202,6 +204,7 @@ header{
     width: 2%;
 }
 
+
 @media(max-width: 1150px){
     body{
         height: auto;
@@ -211,9 +214,7 @@ header{
         flex-direction: column;
         justify-content: space-around;
         margin: 3% 5;
-        align-items: center;
-        
-       
+        align-items: center;  
     }
     .body__pag__espaco__entrada{
         width: 100%;

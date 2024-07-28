@@ -28,8 +28,8 @@ Para o projeto, foram utilizados HTML, CSS e JavaScript, além do github para ge
 
 ## Créditos
 
-Feito por Gustavo Gomes
+Feito por [Gustavo Gomes](https://gustavo-gomes-home.vercel.app/)
 
-![Static Badge](https://img.shields.io/badge/Site%20pessoal%20-%20link?style=flat-square&labelColor=1e4b70&color=2b2b2d&link=https%3A%2F%2Fgustavo-gomes-home.vercel.app%2F)
+
 
 

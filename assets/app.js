@@ -18,6 +18,7 @@ function mudarConteudodaSaida(){
     if (campoEntrada.value == ""){
         alert('Digite alguma coisa para criptografar ou descriptografar!!!');
         exibirConteudo(placeholderSaida);
+        ocultarConteudo(campoSaidaCheio);
     }
     else if (campoEntrada.value != ""){
         ocultarConteudo(placeholderSaida);

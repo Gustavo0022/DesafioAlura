@@ -21,6 +21,10 @@ Para o projeto, foram utilizados HTML, CSS e JavaScript, além do github para ge
 ![Static Badge](https://img.shields.io/badge/CSS%20-%20logo?style=flat-square&logo=CSS3&logoColor=white&logoSize=auto&labelColor=%231572B6&color=2b2b2d)
 ![Static Badge](https://img.shields.io/badge/JavaScript%20-%20logo?style=flat-square&logo=JavaScript&logoColor=gray&logoSize=auto&labelColor=%23F7DF1E&color=2b2b2d)
 
+## Como acessar
+
+### [Link do site](https://transcodificadordetexto.vercel.app/)
+
 ## Créditos
 
 Feito por Gustavo Gomes

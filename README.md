@@ -3,7 +3,10 @@
 
 **Atenção:** Este projeto é o desafio final da formação Oracle ONE Next Education T7, em parceria com a Alura.
 
-![Demo do projeto](/assets/img/demo-md.gif)
+<div align=center style="display:flex; flex-direction:row; gap:10px; ">
+<img src="./assets/img/demo-md.gif" alt="demo" height="350">
+<img src="./assets/img/demo-md-mobile.gif" alt="demo-mobile" height="350" >
+</div>
 
 ## Objetivo
 
@@ -13,6 +16,10 @@ Fazer um codificador e decodificador de texto com as tecnologias aprendidas no c
 * **Codificação de decodificação de textos**
 * **Interface intuitiva e limpa**
 * **Responsividade em celulares e tablets**
+
+
+
+
 
 ## Tecnologias
  

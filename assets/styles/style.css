@@ -209,6 +209,9 @@ body{
     body{
         height: auto;
     }
+    .cabecalho__anchor{
+        width: 7%;
+    }
     .body__pag{
         display: flex;
         flex-direction: column;
@@ -243,9 +246,10 @@ body{
             padding: 8% 0% 15% 5%;
             gap: 10px;
         }
-        .cabecalho__logo{
-            width: 12%;
+        .cabecalho__anchor{
+            width: 10%;
         }
+
         .body__pag__textovazio{
             flex-direction: column;
         }

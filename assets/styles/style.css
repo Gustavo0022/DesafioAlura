@@ -46,7 +46,7 @@ header{
 body{
     background-color: var(--main-color);
     box-sizing: border-box;
-    height: 65.5vh; 
+    height: 68vh; 
 }
 .body__pag__espaco__entrada{
     display: flex;

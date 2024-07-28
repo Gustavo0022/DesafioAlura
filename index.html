@@ -4,34 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transcodificador de texto</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
+    <header> 
+        <a href="https://gustavo-gomes-home.vercel.app/" class="cabecalho__anchor"><img src="./assets/img/logo final v2 torto.png" alt="Logo" class="cabecalho__logo"></a>
+        <h1 class="cabecalho__texto">Criptografador de texto</h1>
+    </header>
     <main class="body__pag">
-        <section class="body__pag__ladoesquerdo">
-            <textarea class="body__pag__input" placeholder="Digite seu texto" wrap="hard"></textarea>
+        <section class="body__pag__espaco__entrada">
+            <textarea class="body__pag__entrada" id="entrada" placeholder="Digite seu texto" wrap="hard" rows="10" ></textarea>
             <div class="body__pag__botoes">
-                <button class="body__pag__botoes__criptografar" onclick="criptografarTexto()">criptografar</button>
+                <button class="body__pag__botoes__criptografar" onclick="criptografarTexto() ">criptografar</button>
                 <button class="body__pag__botoes__descriptografar" onclick="descriptografarTexto()">descriptografar</button>
             </div>
            
         </section>
         
-        <section class="body__pag__ladodireito">
-            <div class="body__pag__textovazio">
-                <h3 class="body__pag__head" >Nenhuma mensagem encontrada...</h3>
-                <p class="body__pag__parag">Digite um texto que você deseja criptografar ou descriptografar. </p>
+        <section class="body__pag__espaco__saida">
+            <div class="body__pag__textovazio" id="campoVazio">
+                <img src="./assets/img/Dando de ombros.svg" alt= "Pessoa dando de ombros" class="textovazio_imagem">
+            <div>
+                <h3 class="body__pag__textovazio__head" >Nenhuma mensagem encontrada...</h3>
+                <p class="body__pag__textovazio__parag">Digite um texto que você deseja criptografar ou descriptografar. </p>
             </div>
-            <textarea class="body__pag__saida" id="saida" readonly></textarea>
+                
+            </div>
+            <div class="body__pag__com__texto" id="campoCheio">
+                <textarea class="body__pag__saida" id="saida" readonly rows="25" cols="45"></textarea>
+                <button class="body__botao__copiar" onclick="copiarTexto()">Copiar </button>
+            </div>     
         </section>
         
         
     </main>
     <footer class="rodape">
-        <img src="img/logo final v2 torto.png" alt="Logo" class="imagemLogo">
-        <p class="rodape__texto">Desenvolvido por Gustavo Gomes</p>
+        <img src="./assets/img/logo final v2 torto.png" alt="Logo" class="imagemLogo">
+        <p class="rodape__texto">Desenvolvido por <a class="rodape__texto__link" href="https://gustavo-gomes-home.vercel.app/">Gustavo Gomes</a></p>
 
     </footer>
-    <script src="app.js" defer></script>
+    <script src="./assets/app.js" defer></script>
 </body>
 </html>
